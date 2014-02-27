@@ -16,4 +16,5 @@ git "/home/vagrant/Tiny.House" do
   reference "master"
   action :sync
   user "vagrant"
+  group "vagrant"
 end

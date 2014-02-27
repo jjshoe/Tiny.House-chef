@@ -1,7 +1,7 @@
 name "Tiny.House"
 maintainer "jjshoe"
 maintainer_email "jjshoe@gmail.com"
-version "0.0.3"
+version "0.0.4"
 description "Configure a shape to csv conversion machine"
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 
