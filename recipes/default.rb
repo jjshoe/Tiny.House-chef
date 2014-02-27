@@ -13,4 +13,5 @@ git "/home/vagrant/Tiny.House" do
   repository "https://github.com/jjshoe/Tiny.House.git"
   reference "master"
   action :sync
+  user "vagrant"
 end
