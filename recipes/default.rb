@@ -1,6 +1,8 @@
 include_recipe 'ruby_build'
 include_recipe 'rbenv::system'
 
+package 'libsqlite3-dev'
+
 rbenv_ruby '2.1.0'
 rbenv_global '2.1.0'
 
